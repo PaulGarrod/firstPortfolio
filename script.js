@@ -16,6 +16,23 @@ let projects = [{
 	],
 	doItDifferently: ''
 },{
+	name: 'Love Local NZ',
+	website: 'http://www.lovelocalnz.com',
+	code: 'https://github.com/PaulGarrod/loveLocalNZ',
+	hosted: 'Heroku', 
+	description: 'A web application for Kiwi\'s to list their own classifieds with no fees! Built in GOORM IDE, the application was created using Javascript, Node.JS Mongo DB, Express.JS and NPM. Industry standard RESTFUL routing and CRUD operations were implemented as well as GitHub for version control. The application was launched on and is still hosted on Heroku.',
+	description2: '', 
+	tech:
+		"<span class='iconify m-3' data-icon='logos:html-5'></span> <span class='iconify m-3' data-icon='logos:css-3'></span> <span class='iconify m-3' data-icon='logos:bootstrap'></span> <span class='iconify m-3' data-icon='logos:javascript'></span> <span class='iconify m-3' data-icon='logos:nodejs-icon'></span> <span class='iconify m-3' data-icon='logos:mongodb'></span> <span class='iconify m-3' data-icon='logos:heroku-icon'></span> <span class='iconify m-3' data-icon='logos:npm-2'></span> <span class='iconify m-3' data-icon='logos:github-icon'></span>"
+	,
+	codeLink: 'https://github.com/PaulGarrod/loveLocalNZ',
+	brief: 'Create a web application which allows users to list items/ services, (similar to Craig\'s list). Application will not participate in the transfer of funds, users are encouraged to negotiate and arrange their own sales/ payments off the app.',
+	idea: 'Give Kiwi\'s a place to sell and buy from other Kiwi\'s for free.',
+	challenges: [
+		'Utilizing the database', 'Integrating reset password feature', 'Creating admin permissions', ''
+	],
+	doItDifferently: ''
+},{
 	name: 'Tom Freer Photography',
 	website: 'https://tomfreerphotography.herokuapp.com/',
 	code: 'https://github.com/PaulGarrod/tomFreerPhotography',
@@ -77,4 +94,87 @@ function mainProject() {
 }
 mainProject();
 
-export {projects}
+let projectsNetlify = [
+	{
+	name: 'HTML Canvas',
+	website: 'https://canvaspaint.netlify.app/',
+	code: 'https://github.com/PaulGarrod/HTMLcanvas',
+	img: 'canvas',	
+	description: '',
+	tech: 
+		"<span class='iconify m-3' data-icon='logos:html-5'></span> <span class='iconify m-3' data-icon='logos:css-3'></span> <span class='iconify m-3' data-icon='logos:bootstrap'></span> <span class='iconify m-3' data-icon='logos:javascript'></span> <span class='iconify m-3' data-icon='logos:heroku-icon'></span> <span class='iconify m-3' data-icon='ant-design:github-filled'></span>"
+	,
+	mobile: true,
+}, 
+	{
+	name: 'CSS Sliders',
+	website: 'https://altercssslider.netlify.app/',
+	code: 'https://github.com/PaulGarrod/cssVarsAndJS',
+	img: 'cssVariables',
+	description: '',
+	tech:
+		"<span class='iconify m-3' data-icon='logos:html-5'></span> <span class='iconify m-3' data-icon='logos:css-3'></span> <span class='iconify m-3' data-icon='logos:bootstrap'></span> <span class='iconify m-3' data-icon='logos:javascript'></span> <span class='iconify m-3' data-icon='logos:heroku-icon'></span> <span class='iconify m-3' data-icon='ant-design:github-filled'></span>"
+	,
+	mobile: true,
+}, {
+	name: 'Calculator',
+	website: 'https://paulgarrod-calculator.netlify.app/',
+	code: 'https://github.com/PaulGarrod/calculator ',
+	img: 'calculator',
+	description: '',
+	tech:
+		"<span class='iconify m-3' data-icon='logos:html-5'></span> <span class='iconify m-3' data-icon='logos:css-3'></span> <span class='iconify m-3' data-icon='logos:bootstrap'></span> <span class='iconify m-3' data-icon='logos:javascript'></span> <span class='iconify m-3' data-icon='logos:heroku-icon'></span> <span class='iconify m-3' data-icon='ant-design:github-filled'></span>"
+	,
+	mobile: true,
+}, 
+// {
+// 	name: 'Drum Kit',
+// 	website: 'https://jsdrumkit2020.netlify.app/',
+// 	code: 'https://github.com/PaulGarrod/drumKit ',
+// 	img: 'drumKit',
+// 	description: '',
+// 	tech:
+// 		"<span class='iconify m-3' data-icon='logos:html-5'></span> <span class='iconify m-3' data-icon='logos:css-3'></span> <span class='iconify m-3' data-icon='logos:bootstrap'></span> <span class='iconify m-3' data-icon='logos:javascript'></span> <span class='iconify m-3' data-icon='logos:heroku-icon'></span> <span class='iconify m-3' data-icon='ant-design:github-filled'></span>"
+// 	,
+// 	mobile: false,
+// }, 
+{
+	name: 'Clock',
+	website: 'https://paulgarrod-clock.netlify.app/',
+	code: 'https://github.com/PaulGarrod/jsClock',
+	img: 'clock',
+	description: '',
+	tech:
+		"<span class='iconify m-3' data-icon='logos:html-5'></span> <span class='iconify m-3' data-icon='logos:css-3'></span> <span class='iconify m-3' data-icon='logos:bootstrap'></span> <span class='iconify m-3' data-icon='logos:javascript'></span> <span class='iconify m-3' data-icon='logos:heroku-icon'></span> <span class='iconify m-3' data-icon='ant-design:github-filled'></span>"
+	,
+	mobile: true,
+}, {
+	name: 'To Do List',
+	website: 'https://paulgarrod-todolist.netlify.app/',
+	code: 'https://github.com/PaulGarrod/toDoList',
+	img: 'toDo',
+	description: '',
+	tech:
+		"<span class='iconify m-3' data-icon='logos:html-5'></span> <span class='iconify m-3' data-icon='logos:css-3'></span> <span class='iconify m-3' data-icon='logos:bootstrap'></span> <span class='iconify m-3' data-icon='logos:javascript'></span> <span class='iconify m-3' data-icon='logos:heroku-icon'></span> <span class='iconify m-3' data-icon='ant-design:github-filled'></span>"
+	,
+	mobile: true,
+}, {
+	name: 'City Search',
+	website: 'https://searchapis.netlify.app/',
+	code: 'https://github.com/PaulGarrod/ajaxTypeAhead',
+	img: 'citySearch',
+	description: '',
+	tech:
+		"<span class='iconify m-3' data-icon='logos:html-5'></span> <span class='iconify m-3' data-icon='logos:css-3'></span> <span class='iconify m-3' data-icon='logos:bootstrap'></span> <span class='iconify m-3' data-icon='logos:javascript'></span> <span class='iconify m-3' data-icon='logos:heroku-icon'></span> <span class='iconify m-3' data-icon='ant-design:github-filled'></span>"
+	,
+	mobile: true,
+}];
+
+function smallProject() {
+	for(var i = 0; i<projectsNetlify.length; i++){
+		document.getElementById(`netlifyP${i}`).innerHTML=(`<h4 class=\'mt-4\'>${projectsNetlify[i].name}</h4><a href=\'${projectsNetlify[i].website}\'  target=\'_blank\'><img src=\'images/portfolio/netlify/${projectsNetlify[i].img}.JPG\' class=\'respImg\'></a><div class=\'text-center\'><a href=\'${projectsNetlify[i].website}\' target=\'_blank\'><button class=\'text-center btnLight btn btn-secondary btn-sm m-1 d-inline\'>Website</button></a><a href=\'${projectsNetlify[i].code}\' target=\'_blank\'><button class=\'text-center btnLight btn btn-secondary btn-sm m-1 d-inline\'>Code</button></a></div></div></div>`
+		)}
+	};
+smallProject();
+
+export {projects, projectsNetlify}
