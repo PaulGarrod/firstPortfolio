@@ -9,8 +9,12 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, .navbar-brand, .nav-item {
 	font-family: 'Philosopher', sans-serif;
+}
+
+.nav-item, .navbar-brand {
+    font-size: 1.3rem;
 }
 
 p {
@@ -26,7 +30,7 @@ a:link {
 	text-decoration: none;
 }
 
-.halfSize {
+.half-size {
 	font-size: 0.5rem;
 }
 
@@ -43,30 +47,29 @@ a:link {
 }
 
 .jumbotron {
-	height: 100%;	
+    height: 100%;	
+    border-radius: 0%;
 }
 
-.respImg {
+.resp-img {
 	width: 100%;
 }
 
-.profileImgMain {
+.profile-img {
 	width: 90%;
 	border-radius: 50%;
 }
-.profileImg {
-	width: 80%;
-}
-.profileImg1 {
+
+.profile-img1 {
 	border-radius: 30% 70% 65% 35% / 80% 47% 53% 20%;
 }
-.profileImg2 {
+.profile-img2 {
 	border-radius: 57% 43% 65% 35% / 13% 47% 53% 87%;
 }
-.profileImg3 {
+.profile-img3 {
 	border-radius: 85% 15% 65% 35% / 13% 18% 82% 87%;
 }
-.profileImg4 {
+.profile-img4 {
 	border-radius: 85% 15% 65% 35% / 13% 53% 47% 87%;
 }
 
@@ -77,47 +80,44 @@ a:link {
 	max-width: 100%;
 }
 
-#techBG {
+#tech-bg {
 	background-color: rgba(145,171,194,1);
 }
-#contactBG {
+
+#contact-bg {
 	background-color: #050b10;
 	color: #e8d0bf;
 }
 
-
-/* =========== */
 /* header images */
-#indexPic {
+#index-pic {
 	background-image: url('/images/index/laptopDesk.jpg');
 	background-size: cover;
 	background-position: center bottom;
-	/* background-size: contain; */
 	background-repeat: no-repeat;
 	min-height:430px;
-
 }
 
 /* BUTTONS */
-.btnDark {
+.btn-dark {
   	transition: 0.25s ease;
 	color: rgba(232,208,191,1);
 	background-color:  #050b10;
 } 
 
-.btnDark:hover {
+.btn-dark:hover {
     color: #050b10;
     border-color: #050b10;
     background-color: rgba(232,208,191,1);
   }
 
-.btnLight {
+.btn-light {
   	transition: 0.25s ease;
     color: #050b10;
     background-color: rgba(232,208,191,1);
 } 
 
-.btnLight:hover {
+.btn-light:hover {
 	color: rgba(232,208,191,1);
 	background-color:  #050b10;
     border-color: #050b10;
@@ -189,6 +189,7 @@ a:link {
     fill: #fff;
 }
 
+/* media queries */
 @media (max-width: 360px) {
-    #button-resume, #email-logo-top, #twitter-logo-top {display: none;}
+    #button-resume, .email-logo, .twitter-logo {display: none;}
 }

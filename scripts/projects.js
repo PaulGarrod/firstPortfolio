@@ -65,17 +65,17 @@ function mainProject() {
 	for(var i = 0; i<data.length; i++){
 
 		function createPortfolio(){
-			let outerContainer = document.createElement('div');
+			let outerContainer = document.createElement('article');
 			let headerRow = document.createElement('div');
 			let headerCol = document.createElement('div');
 			let newH2 = document.createElement('h2');
-			let newH4 = document.createElement('h4');
 			let mainRow = document.createElement('div');
-			let firstCol = document.createElement('div');
-			let secondCol = document.createElement('div');
+			let firstCol = document.createElement('figure');
 			let newImgA = document.createElement('a');
 			let newImg = document.createElement('img');
 			let technology = document.createElement('p');
+			let secondCol = document.createElement('figcaption');
+			let newH4 = document.createElement('h4');
 			let description = document.createElement('p');
 			let buttonDiv = document.createElement('div');
 			let webButton = document.createElement('button');
@@ -99,8 +99,8 @@ function mainProject() {
 			newImgA.setAttribute('href', `${data[i].website}`)
 			newImgA.setAttribute('target', '_blank')
 			newImg.src = `images/portfolio/${data[i].name}.jpg`;
-			newImg.className = 'respImg';
-			technology.className = 'halfSize text-center';
+			newImg.className = 'resp-img';
+			technology.className = 'half-size text-center';
 			technology.innerHTML = `${data[i].tech}`;
 			
 			// right column
@@ -109,10 +109,10 @@ function mainProject() {
 			
 			// buttons
 			buttonDiv.className = 'text-center'
-			webButton.className = 'text-center btnDark btn btn-secondary m-2'
+			webButton.className = 'text-center btn-dark btn btn-secondary m-2'
 			webButtonA.setAttribute('href', `${data[i].website}`)
 			webButton.innerText = 'Website'
-			codeButton.className = 'text-center btnDark btn btn-secondary m-2'
+			codeButton.className = 'text-center btn-dark btn btn-secondary m-2'
 			codeButtonA.setAttribute('href', `${data[i].code}`)
 			codeButton.innerText = 'Code'
 
@@ -126,11 +126,7 @@ function mainProject() {
 			secondCol.appendChild(buttonDiv).appendChild(webButtonA).appendChild(webButton)
 			buttonDiv.appendChild(codeButtonA).appendChild(codeButton)
 		}
-		
 		createPortfolio()
-
-
-		// document.getElementById(`mainP${i}`).innerHTML=(`<div class=\'container\'><div class=\'row mt-5 mb-3\'><div class=\'col-12 text-center\'><h2>${data[i].name}</h2></div></div><div class=\'row\'><div class=\'col-md-6 p-0\'><a href=\'${data[i].website}\'  target=\'_blank\'><img src=\'images/portfolio/${data[i].name}.jpg\' class=\'respImg\'></a><div class=\'col-12\'><p class=\'halfSize text-center\'>${data[i].tech}</p></div></div><div class=\'col-md-6\'><h4>Description</h4><p>${data[i].description}</p><div class=\'text-center\'><a href=\'${data[i].website}\' target=\'_blank\'><button class=\'text-center btnDark btn btn-secondary m-2\'>Website</button></a><a href=\'${data[i].code}' target=\'_blank\'><button class=\'text-center btnDark btn btn-secondary m-2\'>Code</button></a></div></div></div></div>`);
 	}
 }
 mainProject();
