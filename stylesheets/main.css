@@ -1,0 +1,194 @@
+body, html {
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	padding-top: 54px;
+	color: #050b10;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Philosopher', sans-serif;
+}
+
+p {
+	text-align: justify;
+}
+
+footer {
+	background: rgba(232,208,191,1);
+}
+
+a:link {
+	color: inherit;
+	text-decoration: none;
+}
+
+.halfSize {
+	font-size: 0.5rem;
+}
+
+.caption {
+	position: center;
+	letter-spacing: 3px;
+	background: rgba(232,208,191,0.75);
+	padding: 15px;
+	display: inline-block;
+}
+
+.center {
+	text-align: center;
+}
+
+.jumbotron {
+	height: 100%;	
+}
+
+.respImg {
+	width: 100%;
+}
+
+.profileImgMain {
+	width: 90%;
+	border-radius: 50%;
+}
+.profileImg {
+	width: 80%;
+}
+.profileImg1 {
+	border-radius: 30% 70% 65% 35% / 80% 47% 53% 20%;
+}
+.profileImg2 {
+	border-radius: 57% 43% 65% 35% / 13% 47% 53% 87%;
+}
+.profileImg3 {
+	border-radius: 85% 15% 65% 35% / 13% 18% 82% 87%;
+}
+.profileImg4 {
+	border-radius: 85% 15% 65% 35% / 13% 53% 47% 87%;
+}
+
+.iconify {
+	color: #2B5B80;
+    text-shadow: 1px 1px 1px white;
+    font-size: 4.5em;
+	max-width: 100%;
+}
+
+#techBG {
+	background-color: rgba(145,171,194,1);
+}
+#contactBG {
+	background-color: #050b10;
+	color: #e8d0bf;
+}
+
+
+/* =========== */
+/* header images */
+#indexPic {
+	background-image: url('/images/index/laptopDesk.jpg');
+	background-size: cover;
+	background-position: center bottom;
+	/* background-size: contain; */
+	background-repeat: no-repeat;
+	min-height:430px;
+
+}
+
+/* BUTTONS */
+.btnDark {
+  	transition: 0.25s ease;
+	color: rgba(232,208,191,1);
+	background-color:  #050b10;
+} 
+
+.btnDark:hover {
+    color: #050b10;
+    border-color: #050b10;
+    background-color: rgba(232,208,191,1);
+  }
+
+.btnLight {
+  	transition: 0.25s ease;
+    color: #050b10;
+    background-color: rgba(232,208,191,1);
+} 
+
+.btnLight:hover {
+	color: rgba(232,208,191,1);
+	background-color:  #050b10;
+    border-color: #050b10;
+  }
+
+/* DIVIDERS */
+/* Technology-Top */
+.custom-shape-divider-bottom-1599363533 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1599363533 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 35px;
+}
+
+.custom-shape-divider-bottom-1599363533 .shape-fill {
+    fill: rgba(145,171,194,1);
+}
+
+/* technology-bottom */
+.custom-shape-divider-top-1599363432 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1599363432 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 35px;
+}
+
+.custom-shape-divider-top-1599363432 .shape-fill {
+    fill: rgba(145,171,194,1);
+}
+
+/* contact-bottom */
+.custom-shape-divider-top-1599365442 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1599365442 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 35px;
+}
+
+.custom-shape-divider-top-1599365442 .shape-fill {
+    fill: #fff;
+}
+
+@media (max-width: 360px) {
+    #button-resume, #email-logo-top, #twitter-logo-top {display: none;}
+}
