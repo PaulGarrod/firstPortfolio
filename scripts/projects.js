@@ -3,8 +3,8 @@ let data = [{
 	website: 'https://uk-covid-data.netlify.app/',
 	code: 'https://github.com/PaulGarrod/UKCovidData',
 	hosted: 'GitHub', 
-	description: 'I wanted to create a site which provides honest real time data on both cases and deaths in the UK. Utilizing Fetch API to retrieve the UK Governments up to date data on Covid-19.',
-	description2: 'Need to include async/ await, promise chaining, array manipulation, vanilla JS for DOM manipulation, bootstrap', 
+	description: 'I wanted to create a site which provides honest real time data on both cases and deaths in the UK. Utilizing Fetch API to retrieve the UK Governments current data on Covid-19. I then created asynchronous functions using async await, and retrieved this data with promise chaining. Incorporating Bootstrap for the sites responsive layout was the simple solution for a simple layout.',
+	description2: '', 
 	tech:
 		"<span class='iconify m-3' data-icon='logos:html-5'></span> <span class='iconify m-3' data-icon='logos:css-3'></span> <span class='iconify m-3' data-icon='logos:bootstrap'></span> <span class='iconify m-3' data-icon='logos:javascript'></span> <span class='iconify m-3' data-icon='logos:netlify'></span> <span class='iconify m-3' data-icon='logos:github-icon'></span>"
 	,
@@ -13,6 +13,23 @@ let data = [{
 	idea: 'Utilize UK government API to have easy to find, easy to read and understand data on the current Covid pandemic.',
 	challenges: [
 		'Utilizing the database', 'Integrating reset password feature', 'Creating admin permissions', ''
+	],
+	doItDifferently: ''
+},{
+	name: 'Todo Application',
+	website: 'https://paulgarrod-todolist.netlify.app/',
+	code: 'https://github.com/PaulGarrod/toDoList',
+	hosted: 'GitHub', 
+	description: 'Create a todo application. Use local storage to maintain list.',
+	description2: '', 
+	tech:
+		"<span class='iconify m-3' data-icon='logos:html-5'></span> <span class='iconify m-3' data-icon='logos:css-3'></span> <span class='iconify m-3' data-icon='logos:bootstrap'></span> <span class='iconify m-3' data-icon='logos:javascript'></span> <span class='iconify m-3' data-icon='logos:netlify'></span> <span class='iconify m-3' data-icon='logos:github-icon'></span>"
+	,
+	codeLink: 'https://github.com/PaulGarrod/UKCovidData',
+	brief: '',
+	idea: '',
+	challenges: [
+		'Incorporating Local Storage', '', ''
 	],
 	doItDifferently: ''
 },{
@@ -83,7 +100,7 @@ function mainProject() {
 			let codeButton = document.createElement('button');
 			let codeButtonA = document.createElement('a');
 		
-			outerContainer.className = 'container';
+			outerContainer.className = 'container project-bg';
 		
 			// main header
 			headerRow.className = 'row mt-5 mb-3';
