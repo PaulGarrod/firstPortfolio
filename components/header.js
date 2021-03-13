@@ -30,9 +30,6 @@ class Header extends HTMLElement {
     </ul>
     <ul class='navbar-nav ml-auto mt-2 mt-lg-0'>
       <li class='nav-item' data-toggle='collapse' data-target='.navbar-collapse.show'>
-        <a class='nav-link' href='/blog.html'>Blog</a>
-      </li>
-      <li class='nav-item' data-toggle='collapse' data-target='.navbar-collapse.show'>
         <a class='nav-link' href='resume/resume.pdf' download='Paul Garrod Resume'>Resume</a>
       </li>
     </ul>
