@@ -3,8 +3,8 @@ let data = [{
 	website: 'https://uk-covid-data.netlify.app/',
 	code: 'https://github.com/PaulGarrod/UKCovidData',
 	hosted: 'GitHub', 
-	description: 'I wanted to create a site which provides honest real time data on both cases and deaths in the UK. Utilizing Fetch API to retrieve the UK Governments current data on Covid-19. I then created asynchronous functions using async await to retrieve the data, with promise chaining used to display the data. Incorporating Bootstrap for the sites responsive layout was the simple solution.',
-	description2: '', 
+	description1: 'I wanted to create a site which provides honest real time data on both cases and deaths in the UK. Utilizing Fetch API to retrieve the UK Governments current data on Covid-19. I then created asynchronous functions using async await to retrieve the data, with promise chaining used to display the data. Incorporating Bootstrap for the sites responsive layout was the simple solution.',
+	description2: 'TEST D2', 
 	tech:
 		"<span class='iconify m-3' data-icon='logos:html-5'></span> <span class='iconify m-3' data-icon='logos:css-3'></span> <span class='iconify m-3' data-icon='logos:bootstrap'></span> <span class='iconify m-3' data-icon='logos:javascript'></span> <span class='iconify m-3' data-icon='logos:netlify'></span> <span class='iconify m-3' data-icon='logos:github-icon'></span>"
 	,
@@ -20,12 +20,29 @@ let data = [{
 	website: 'https://paulgarrod-todolist.netlify.app/',
 	code: 'https://github.com/PaulGarrod/toDoList',
 	hosted: 'GitHub', 
-	description: 'Create a todo application. Use local storage to maintain list.',
-	description2: '', 
+	description1: 'Create a todo application. Use local storage to maintain list.',
+	description2: 'TEST D2', 
 	tech:
 		"<span class='iconify m-3' data-icon='logos:html-5'></span> <span class='iconify m-3' data-icon='logos:css-3'></span> <span class='iconify m-3' data-icon='logos:bootstrap'></span> <span class='iconify m-3' data-icon='logos:javascript'></span> <span class='iconify m-3' data-icon='logos:netlify'></span> <span class='iconify m-3' data-icon='logos:github-icon'></span>"
 	,
-	codeLink: 'https://github.com/PaulGarrod/UKCovidData',
+	codeLink: 'https://github.com/PaulGarrod/toDoList',
+	brief: '',
+	idea: '',
+	challenges: [
+		'Incorporating Local Storage'
+	],
+	doItDifferently: ''
+},{
+	name: 'Current Weather',
+	website: 'https://current-weather-search.netlify.app/',
+	code: 'https://github.com/PaulGarrod/weatherApp2',
+	hosted: 'GitHub', 
+	description1: 'Creating a weather checker using Javascript. The page is built fully resposive through html and css, without the use of frameworks. The data is retrieved using javascript\'s fetch api within an async function, this function is then called when needed throughout the code.',
+	description2: 'Chaining on to the getData functions returned promise, I then use template literals to insert the returned data into html elements using the DOM. The background image is set using if else statements which match a corresponding image to the current weather data returned from the API. Searching for a new city is done by using the users input data as an arguement to create a new fetch request.', 
+	tech:
+		"<span class='iconify m-3' data-icon='logos:html-5'></span> <span class='iconify m-3' data-icon='logos:css-3'></span> <span class='iconify m-3' data-icon='logos:javascript'></span> <span class='iconify m-3' data-icon='logos:netlify'></span> <span class='iconify m-3' data-icon='logos:github-icon'></span>"
+	,
+	codeLink: 'https://github.com/PaulGarrod/weatherApp2',
 	brief: '',
 	idea: '',
 	challenges: [
@@ -37,7 +54,7 @@ let data = [{
 	website: 'http://www.ppislands.com',
 	code: 'https://github.com/PaulGarrod/ppislands.com',
 	hosted: 'Heroku',
-	description: 'Travel information site for Phi Phi Island, Thailand. Supplimenting a Facebook group I\'m an admin for with some friends. After living on Phi Phi for over a year, I heard tourists ask the same questions over and over. So, I created an information site with relevent information about the island, travel and activities. Built in the GOORM IDE and hosted on Heroku. Created using Javascript, Node.JS, Express JS and NPM, utilizing restful routing and GitHub for version control.',
+	description1: 'Travel information site for Phi Phi Island, Thailand. Supplimenting a Facebook group I\'m an admin for with some friends. After living on Phi Phi for over a year, I heard tourists ask the same questions over and over. So, I created an information site with relevent information about the island, travel and activities. Built in the GOORM IDE and hosted on Heroku. Created using Javascript, Node.JS, Express JS and NPM, utilizing restful routing and GitHub for version control.',
 	tech:
 		"<span class='iconify m-3' data-icon='logos:html-5'></span> <span class='iconify m-3' data-icon='logos:css-3'></span> <span class='iconify m-3' data-icon='logos:bootstrap'></span> <span class='iconify m-3' data-icon='logos:javascript'></span> <span class='iconify m-3' data-icon='logos:nodejs-icon'></span> </span> <span class='iconify m-3' data-icon='logos:heroku-icon'></span> <span class='iconify m-3' data-icon='logos:npm-2'></span> <span class='iconify m-3' data-icon='logos:github-icon'></span>"
 	,
@@ -52,7 +69,7 @@ let data = [{
 	website: 'http://www.tomfreerphotography.com/',
 	code: 'https://github.com/PaulGarrod/tomFreerPhotography',
 	hosted: 'Heroku',
-	description: 'A photography portfolio website for a local photographer, currently designed with a simple one page layout. But built with the further expansion of his portfolio and additional show pages in mind. Built in the GOORM IDE and hosted on Heroku. Created using Javascript, Node.JS, Express JS and NPM to allow for easy expansion of the clients work when necassary. GitHub used for version control.',
+	description1: 'A photography portfolio website for a local photographer, currently designed with a simple one page layout. But built with the further expansion of his portfolio and additional show pages in mind. Built in the GOORM IDE and hosted on Heroku. Created using Javascript, Node.JS, Express JS and NPM to allow for easy expansion of the clients work when necassary. GitHub used for version control.',
 	tech:
 		"<span class='iconify m-3' data-icon='logos:html-5'></span> <span class='iconify m-3' data-icon='logos:css-3'></span> <span class='iconify m-3' data-icon='logos:bootstrap'></span> <span class='iconify m-3' data-icon='logos:javascript'></span> <span class='iconify m-3' data-icon='logos:nodejs-icon'></span> <span class='iconify m-3' data-icon='logos:heroku-icon'></span> <span class='iconify m-3' data-icon='logos:npm-2'></span> <span class='iconify m-3' data-icon='logos:github-icon'></span>"
 	,
@@ -67,7 +84,7 @@ let data = [{
 	website: 'https://pgmoviesearch.herokuapp.com/',
 	code: 'https://github.com/PaulGarrod/simpleMovieSearch',
 	hosted: 'Heroku',
-	description: 'Utilizing a movie database API, I created a Simple Movie Search which will return any movie which includes your search term along with the movies release date. Originally created using VS Code and later migrated to GOORM IDE, hosted on Heroku.',
+	description1: 'Utilizing a movie database API, I created a Simple Movie Search which will return any movie which includes your search term along with the movies release date. Originally created using VS Code and later migrated to GOORM IDE, hosted on Heroku.',
 	tech:
 		"<span class='iconify m-3' data-icon='logos:html-5'></span> <span class='iconify m-3' data-icon='logos:css-3'></span> <span class='iconify m-3' data-icon='logos:bootstrap'></span> <span class='iconify m-3' data-icon='logos:javascript'></span> <span class='iconify m-3' data-icon='logos:heroku-icon'></span> <span class='iconify m-3' data-icon='logos:github-icon'></span>"
 	,
@@ -93,7 +110,8 @@ function mainProject() {
 			let technology = document.createElement('p');
 			let secondCol = document.createElement('figcaption');
 			let newH4 = document.createElement('h4');
-			let description = document.createElement('p');
+			let description1 = document.createElement('p');
+			let description2 = document.createElement('p');
 			let buttonDiv = document.createElement('div');
 			let webButton = document.createElement('button');
 			let webButtonA = document.createElement('a');
@@ -122,7 +140,8 @@ function mainProject() {
 			
 			// right column
 			newH4.innerText = 'Description';
-			description.innerText = `${data[i].description}`;
+			description1.innerText = `${data[i].description1}`;
+			description2.innerText = `${data[i].description2}`;
 			
 			// buttons
 			buttonDiv.className = 'text-center'
@@ -139,7 +158,8 @@ function mainProject() {
 			mainRow.appendChild(secondCol);
 			firstCol.appendChild(technology);
 			secondCol.appendChild(newH4)
-			secondCol.appendChild(description)
+			secondCol.appendChild(description1)
+			secondCol.appendChild(description2)
 			secondCol.appendChild(buttonDiv).appendChild(webButtonA).appendChild(webButton)
 			buttonDiv.appendChild(codeButtonA).appendChild(codeButton)
 		}
