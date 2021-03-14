@@ -4,7 +4,7 @@ let data = [{
 	code: 'https://github.com/PaulGarrod/UKCovidData',
 	hosted: 'GitHub', 
 	description1: 'I wanted to create a site which provides honest real time data on both cases and deaths in the UK. Utilizing Fetch API to retrieve the UK Governments current data on Covid-19. I then created asynchronous functions using async await to retrieve the data, with promise chaining used to display the data. Incorporating Bootstrap for the sites responsive layout was the simple solution.',
-	description2: 'TEST D2', 
+	description2: '', 
 	tech:
 		"<span class='iconify m-3' data-icon='logos:html-5'></span> <span class='iconify m-3' data-icon='logos:css-3'></span> <span class='iconify m-3' data-icon='logos:bootstrap'></span> <span class='iconify m-3' data-icon='logos:javascript'></span> <span class='iconify m-3' data-icon='logos:netlify'></span> <span class='iconify m-3' data-icon='logos:github-icon'></span>"
 	,
@@ -21,7 +21,7 @@ let data = [{
 	code: 'https://github.com/PaulGarrod/toDoList',
 	hosted: 'GitHub', 
 	description1: 'Create a todo application. Use local storage to maintain list.',
-	description2: 'TEST D2', 
+	description2: '', 
 	tech:
 		"<span class='iconify m-3' data-icon='logos:html-5'></span> <span class='iconify m-3' data-icon='logos:css-3'></span> <span class='iconify m-3' data-icon='logos:bootstrap'></span> <span class='iconify m-3' data-icon='logos:javascript'></span> <span class='iconify m-3' data-icon='logos:netlify'></span> <span class='iconify m-3' data-icon='logos:github-icon'></span>"
 	,
@@ -55,6 +55,7 @@ let data = [{
 	code: 'https://github.com/PaulGarrod/ppislands.com',
 	hosted: 'Heroku',
 	description1: 'Travel information site for Phi Phi Island, Thailand. Supplimenting a Facebook group I\'m an admin for with some friends. After living on Phi Phi for over a year, I heard tourists ask the same questions over and over. So, I created an information site with relevent information about the island, travel and activities. Built in the GOORM IDE and hosted on Heroku. Created using Javascript, Node.JS, Express JS and NPM, utilizing restful routing and GitHub for version control.',
+	description2: '',
 	tech:
 		"<span class='iconify m-3' data-icon='logos:html-5'></span> <span class='iconify m-3' data-icon='logos:css-3'></span> <span class='iconify m-3' data-icon='logos:bootstrap'></span> <span class='iconify m-3' data-icon='logos:javascript'></span> <span class='iconify m-3' data-icon='logos:nodejs-icon'></span> </span> <span class='iconify m-3' data-icon='logos:heroku-icon'></span> <span class='iconify m-3' data-icon='logos:npm-2'></span> <span class='iconify m-3' data-icon='logos:github-icon'></span>"
 	,
@@ -70,6 +71,7 @@ let data = [{
 	code: 'https://github.com/PaulGarrod/tomFreerPhotography',
 	hosted: 'Heroku',
 	description1: 'A photography portfolio website for a local photographer, currently designed with a simple one page layout. But built with the further expansion of his portfolio and additional show pages in mind. Built in the GOORM IDE and hosted on Heroku. Created using Javascript, Node.JS, Express JS and NPM to allow for easy expansion of the clients work when necassary. GitHub used for version control.',
+	description2: '',
 	tech:
 		"<span class='iconify m-3' data-icon='logos:html-5'></span> <span class='iconify m-3' data-icon='logos:css-3'></span> <span class='iconify m-3' data-icon='logos:bootstrap'></span> <span class='iconify m-3' data-icon='logos:javascript'></span> <span class='iconify m-3' data-icon='logos:nodejs-icon'></span> <span class='iconify m-3' data-icon='logos:heroku-icon'></span> <span class='iconify m-3' data-icon='logos:npm-2'></span> <span class='iconify m-3' data-icon='logos:github-icon'></span>"
 	,
@@ -85,6 +87,7 @@ let data = [{
 	code: 'https://github.com/PaulGarrod/simpleMovieSearch',
 	hosted: 'Heroku',
 	description1: 'Utilizing a movie database API, I created a Simple Movie Search which will return any movie which includes your search term along with the movies release date. Originally created using VS Code and later migrated to GOORM IDE, hosted on Heroku.',
+	description2: '',
 	tech:
 		"<span class='iconify m-3' data-icon='logos:html-5'></span> <span class='iconify m-3' data-icon='logos:css-3'></span> <span class='iconify m-3' data-icon='logos:bootstrap'></span> <span class='iconify m-3' data-icon='logos:javascript'></span> <span class='iconify m-3' data-icon='logos:heroku-icon'></span> <span class='iconify m-3' data-icon='logos:github-icon'></span>"
 	,
