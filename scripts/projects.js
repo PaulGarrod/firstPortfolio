@@ -94,6 +94,8 @@ let data = [{
 	]
 }];
 
+export {data}
+
 function mainProject() {
 	for(var i = 0; i<data.length; i++){
 
@@ -166,5 +168,3 @@ function mainProject() {
 	}
 }
 mainProject();
-
-export {data}
