@@ -19,10 +19,10 @@ let data = [{
 	website: 'https://paulgarrod-todolist.netlify.app/',
 	code: 'https://github.com/PaulGarrod/toDoList',
 	hosted: 'GitHub', 
-	description1: 'Create a todo application. Use local storage to maintain list.',
-	description2: '', 
+	description1: 'The to do application is made using JQuery, along with HTML and CSS. As there are some custom CSS aspects to this project, I decided there is no need for a CSS framework.',
+	description2: 'Using JQuery for the functionality reduced the amount of JavaScript code needed to get the application live. Functionality includes removing a to do, highlighting completed to dos by togging css classes, creating a new to do by inserting user input and appending to the list, and the hiding of the input when the plus button is clicked.', 
 	tech:
-		"<span class='iconify m-3' data-icon='logos:html-5'></span> <span class='iconify m-3' data-icon='logos:css-3'></span> <span class='iconify m-3' data-icon='logos:bootstrap'></span> <span class='iconify m-3' data-icon='logos:javascript'></span> <span class='iconify m-3' data-icon='logos:netlify'></span> <span class='iconify m-3' data-icon='logos:github-icon'></span>"
+		"<span class='iconify m-3' data-icon='logos:html-5'></span> <span class='iconify m-3' data-icon='logos:css-3'></span> <span class='iconify m-3' data-icon='logos:javascript'></span> <span class='iconify m-3' data-icon='logos:jquery-mobile'></span> <span class='iconify m-3' data-icon='logos:netlify'></span> <span class='iconify m-3' data-icon='logos:github-icon'></span>"
 	,
 	codeLink: 'https://github.com/PaulGarrod/toDoList',
 	brief: '',
