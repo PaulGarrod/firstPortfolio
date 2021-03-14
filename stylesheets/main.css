@@ -97,7 +97,7 @@ a:link {
 
 /* header images */
 #index-pic {
-	background-image: url('/portfolio/images/index/laptopDesk.jpg');
+	background-image: url('images/index/laptopDesk.jpg');
     background-size: cover;
 	background-position: center bottom;
 	background-repeat: no-repeat;
