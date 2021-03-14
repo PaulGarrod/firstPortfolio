@@ -3,8 +3,8 @@ let data = [{
 	website: 'https://uk-covid-data.netlify.app/',
 	code: 'https://github.com/PaulGarrod/UKCovidData',
 	hosted: 'GitHub', 
-	description1: 'I wanted to create a site which provides honest real time data on both cases and deaths in the UK. Utilizing Fetch API to retrieve the UK Governments current data on Covid-19. I then created asynchronous functions using async await to retrieve the data, with promise chaining used to display the data. Incorporating Bootstrap for the sites responsive layout was the simple solution.',
-	description2: '', 
+	description1: 'Displaying real time Covid-19 data from the UK was the purpose of this site as I have family in the UK and decided I would like a place to check the current number of cases and deaths. I wanted the site up quickly and as there wasn\'t too much CSS needed, I decided to incorporate Bootstrap for the sites responsive layout as it was the simplest solution.',
+	description2: 'Using Fetch API to retrieve the UK Governments current data on Covid-19 within an async function I then access the returned promise to insert the data into the website using DOM Manipulation.', 
 	tech:
 		"<span class='iconify m-3' data-icon='logos:html-5'></span> <span class='iconify m-3' data-icon='logos:css-3'></span> <span class='iconify m-3' data-icon='logos:bootstrap'></span> <span class='iconify m-3' data-icon='logos:javascript'></span> <span class='iconify m-3' data-icon='logos:netlify'></span> <span class='iconify m-3' data-icon='logos:github-icon'></span>"
 	,
