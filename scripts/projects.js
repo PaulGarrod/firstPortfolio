@@ -13,8 +13,7 @@ let data = [{
 	idea: 'Utilize UK government API to have easy to find, easy to read and understand data on the current Covid pandemic.',
 	challenges: [
 		'Utilizing the database', 'Integrating reset password feature', 'Creating admin permissions', ''
-	],
-	doItDifferently: ''
+	]
 },{
 	name: 'Todo Application',
 	website: 'https://paulgarrod-todolist.netlify.app/',
@@ -30,8 +29,7 @@ let data = [{
 	idea: '',
 	challenges: [
 		'Incorporating Local Storage'
-	],
-	doItDifferently: ''
+	]
 },{
 	name: 'Current Weather',
 	website: 'https://current-weather-search.netlify.app/',
@@ -47,8 +45,7 @@ let data = [{
 	idea: '',
 	challenges: [
 		'Incorporating Local Storage', '', ''
-	],
-	doItDifferently: ''
+	]
 },{
 	name: 'Phi Phi Island Travel Site',
 	website: 'http://www.ppislands.com',
@@ -96,7 +93,6 @@ let data = [{
 		'Correctly integrating the API keys', 'Two', 'Three',
 	]
 }];
-export {data};
 
 function mainProject() {
 	for(var i = 0; i<data.length; i++){
@@ -166,7 +162,9 @@ function mainProject() {
 			secondCol.appendChild(buttonDiv).appendChild(webButtonA).appendChild(webButton)
 			buttonDiv.appendChild(codeButtonA).appendChild(codeButton)
 		}
-		createPortfolio()
+		createPortfolio();
 	}
 }
 mainProject();
+
+export {data}
