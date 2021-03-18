@@ -63,22 +63,6 @@ let data = [{
 		'Creating the show pages', 'Gathering all the images', 'Aligning the layout correctly', 'Using a blue on blue color theme'
 	]
 },{
-	name: 'Tom Freer Photography',
-	website: 'http://www.tomfreerphotography.com/',
-	code: 'https://github.com/PaulGarrod/tomFreerPhotography',
-	hosted: 'Heroku',
-	description1: 'A photography portfolio website for a local photographer, currently designed with a simple one page layout. But built with the further expansion of his portfolio and additional show pages in mind. Built in the GOORM IDE and hosted on Heroku. Created using Javascript, Node.JS, Express JS and NPM to allow for easy expansion of the clients work when necassary. GitHub used for version control.',
-	description2: '',
-	tech:
-		"<span class='iconify m-3' data-icon='logos:html-5'></span> <span class='iconify m-3' data-icon='logos:css-3'></span> <span class='iconify m-3' data-icon='logos:bootstrap'></span> <span class='iconify m-3' data-icon='logos:javascript'></span> <span class='iconify m-3' data-icon='logos:nodejs-icon'></span> <span class='iconify m-3' data-icon='logos:heroku-icon'></span> <span class='iconify m-3' data-icon='logos:npm-2'></span> <span class='iconify m-3' data-icon='logos:github-icon'></span>"
-	,
-	codeLink: 'https://github.com/PaulGarrod/tomFreerPhotography', 
-	brief: 'Simple, single page photography portfolio. No booking functions, just contact information and example photographs.',
-	idea: '',
-	challenges: [
-		''
-	]
-},{
 	name: 'Simple Movie Search',
 	website: 'https://pgmoviesearch.herokuapp.com/',
 	code: 'https://github.com/PaulGarrod/simpleMovieSearch',
