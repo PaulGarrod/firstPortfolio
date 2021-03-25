@@ -19,7 +19,7 @@ class Footer extends HTMLElement {
                 <a class='linkedin-logo' href='https://www.linkedin.com/in/paulgarrod/' target='_blank' alt='Paul Garrod LinkedIn profile'>
                     <img src='https://img.icons8.com/doodle/48/000000/linkedin--v2.png' class='ml-3 mr-3'/>
                 </a>
-                <a class='twitter-logo'  href='https://twitter.com/PGCoding' target='_blank' alt='Paul Garrod Twtter profile'>
+                <a class='twitter-logo'  href='https://twitter.com/paulgdeveloper' target='_blank' alt='Paul Garrod Twtter profile'>
                     <img src='https://img.icons8.com/doodle/48/000000/twitter--v1.png' class='ml-3 mr-3'/>
                 </a>
                 <a class='email-logo' href='mailto:paulrgarrod@gmail.com' target='_blank' alt='Paul Garrod Twtter profile'>

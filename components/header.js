@@ -24,9 +24,6 @@ class Header extends HTMLElement {
       <li class='nav-item' data-toggle='collapse' data-target='.navbar-collapse.show'>
         <a class='nav-link' href='/#projects'>Projects</a>
       </li>
-      <li class='nav-item' data-toggle='collapse' data-target='.navbar-collapse.show'>
-        <a class='nav-link' href='/#contact'>Contact</a>
-      </li>
     </ul>
     <ul class='navbar-nav ml-auto mt-2 mt-lg-0'>
       <li class='nav-item' data-toggle='collapse' data-target='.navbar-collapse.show'>
