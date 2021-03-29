@@ -12,7 +12,7 @@ class Footer extends HTMLElement {
                     <h1 class='text-center pt-5'>Let's Connect</h1>
                 </div>
             </div>	
-            <div class='row justify-content-center p-5'>
+            <div class='row justify-content-center pt-3 pb-5'>
                 <a class='linkedin-logo' href='https://www.linkedin.com/in/paulgarrod/' target='_blank' alt='Paul Garrod LinkedIn profile'>
                     <img src='https://img.icons8.com/doodle/48/000000/linkedin--v2.png' class='ml-3 mr-3'/>
                 </a>

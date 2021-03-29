@@ -2,7 +2,6 @@ let data = [{
 	name: 'UK Covid Data',
 	website: 'https://uk-covid-data.netlify.app/',
 	code: 'https://github.com/PaulGarrod/UKCovidData',
-	hosted: 'GitHub', 
 	description1: 'Displaying up to date Covid-19 Data from the UK Government\'s API. Creating this site because I\'m originally from the UK and my family still live in the UK, this site gives me an easy snapshot of the Covid numbers in the UK. The site is simple, because I want the data to be the focus, this also lead me to utilize bootstrap for the sites responsiveness as there is limited CSS needed for the site.',
 	description2: 'Using Fetch API to retreive the data. Using an async function I then access the returned promise to insert into the website using DOM Manipulation. With the drop down menu it is possible to access the data from past dates and compare the figures to the most recent days data.', 
 	tech:
@@ -13,7 +12,6 @@ let data = [{
 	name: 'Todo Application',
 	website: 'https://paulgarrod-todolist.netlify.app/',
 	code: 'https://github.com/PaulGarrod/toDoList',
-	hosted: 'GitHub', 
 	description1: 'Incorporating local storage to allow users to store their to dos and have access to their list after they leave the application. Functionality created with JQuery, style and responsive elements created with CSS, without the use of a CSS Framework.',
 	description2: 'Functionality includes creating, highlighting and deleting to dos, plus the ability to flag important todos. Ability to reorder list and bring the flagged items to the top. The input options can be hidden by clicking the plus icon at the top.', 
 	tech:
@@ -24,7 +22,6 @@ let data = [{
 	name: 'Current Weather',
 	website: 'https://current-weather-search.netlify.app/',
 	code: 'https://github.com/PaulGarrod/weatherApp2',
-	hosted: 'GitHub', 
 	description1: 'Utilizing Fetch API to retreive current weather data, which is accessed and appended to the DOM. The default city is set to Wellington, but the search input allows you to search for any city in the world. All functionality is created with javaScrit. No CSS framework is used for styling or responsiveness.',
 	description2: 'The background image is set using if else statements which match a corresponding image to the current weather data returned from the API. Background image has a transparent overlay to highlight the header text.', 
 	tech:
@@ -35,26 +32,13 @@ let data = [{
 	name: 'Phi Phi Island Travel Site',
 	website: 'http://www.ppislands.com',
 	code: 'https://github.com/PaulGarrod/ppislands.com',
-	hosted: 'Heroku',
-	description1: 'Travel information site for Phi Phi Island, Thailand. Supplimenting a Facebook group I\'m an admin for with some friends. After living on Phi Phi for over a year, I heard tourists ask the same questions over and over. So, I created an information site with relevent information about the island, travel and activities. Built in the GOORM IDE and hosted on Heroku. Created using Javascript, Node.JS, Express JS and NPM, utilizing restful routing and GitHub for version control.',
-	description2: '',
+	description1: 'Living in Phi Phi for over a year, the tourists always ask the same questions. So, I created this information site to help as a guide for the island. Created with javaScript and Node.js with express.JS.',
+	description2: 'Utilizing DOM manipulation, I created large sections of the website by looping through arrays of data and apending to the page.',
 	tech:
 		"<span class='iconify m-3' data-icon='logos:html-5'></span> <span class='iconify m-3' data-icon='logos:css-3'></span> <span class='iconify m-3' data-icon='logos:bootstrap'></span> <span class='iconify m-3' data-icon='logos:javascript'></span> <span class='iconify m-3' data-icon='logos:nodejs-icon'></span> </span> <span class='iconify m-3' data-icon='logos:heroku-icon'></span> <span class='iconify m-3' data-icon='logos:npm-2'></span> <span class='iconify m-3' data-icon='logos:github-icon'></span>"
 	,
 	codeLink: 'https://github.com/PaulGarrod/ppIslands'
 }
-// ,{
-// 	name: 'Simple Movie Search',
-// 	website: 'https://pgmoviesearch.herokuapp.com/',
-// 	code: 'https://github.com/PaulGarrod/simpleMovieSearch',
-// 	hosted: 'Heroku',
-// 	description1: 'Utilizing a movie database API, I created a Simple Movie Search which will return any movie which includes your search term along with the movies release date. Originally created using VS Code and later migrated to GOORM IDE, hosted on Heroku.',
-// 	description2: '',
-// 	tech:
-// 		"<span class='iconify m-3' data-icon='logos:html-5'></span> <span class='iconify m-3' data-icon='logos:css-3'></span> <span class='iconify m-3' data-icon='logos:bootstrap'></span> <span class='iconify m-3' data-icon='logos:javascript'></span> <span class='iconify m-3' data-icon='logos:heroku-icon'></span> <span class='iconify m-3' data-icon='logos:github-icon'></span>"
-// 	,
-// 	codeLink: 'https://github.com/PaulGarrod/simpleMovieSearch',
-// }
 ];
 
 export {data}
