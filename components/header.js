@@ -13,13 +13,7 @@ class Header extends HTMLElement {
     <a class='navbar-brand'>Paul Garrod Web Developer</a>
     <ul class='navbar-nav mr-auto mt-2 mt-lg-0'>
       <li class='nav-item' data-toggle='collapse' data-target='.navbar-collapse.show'>
-        <a class='nav-link' href='/#home'>Home</a>
-      </li>
-      <li class='nav-item' data-toggle='collapse' data-target='.navbar-collapse.show'>
         <a class='nav-link' href='/#aboutMe'>About</a>
-      </li>
-      <li class='nav-item' data-toggle='collapse' data-target='.navbar-collapse.show'>
-        <a class='nav-link' href='/#technology'>Technology</a>
       </li>
       <li class='nav-item' data-toggle='collapse' data-target='.navbar-collapse.show'>
         <a class='nav-link' href='/#projects'>Projects</a>

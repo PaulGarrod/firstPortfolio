@@ -62,6 +62,7 @@ a:link {
 
 .resp-img {
 	width: 100%;
+	border: 2px solid #050b10;
 }
 
 .profile-img {

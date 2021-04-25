@@ -29,15 +29,15 @@ let data = [{
 	,
 	codeLink: 'https://github.com/PaulGarrod/weatherApp2'
 },{
-	name: 'Phi Phi Island Travel Site',
-	website: 'http://www.ppislands.com',
-	code: 'https://github.com/PaulGarrod/ppislands.com',
-	description1: 'Living in Phi Phi for over a year, the tourists always ask the same questions. So, I created this information site to help as a guide for the island. Created with javaScript and Node.js with express.JS.',
-	description2: 'Utilizing DOM manipulation, I created large sections of the website by looping through arrays of data and apending to the page.',
+	name: 'Card Battle Rock Singer',
+	website: 'https://rock-singer-battle.netlify.app/',
+	code: 'https://github.com/PaulGarrod/singerFightCardGame',
+	description1: 'Using React to create a simple card battle game. Cards are based on Rock Singers, and include experience and intimidation scores.',
+	description2: 'Purpose of this project was to use react components and props together.',
 	tech:
-		"<span class='iconify m-3' data-icon='logos:html-5'></span> <span class='iconify m-3' data-icon='logos:css-3'></span> <span class='iconify m-3' data-icon='logos:bootstrap'></span> <span class='iconify m-3' data-icon='logos:javascript'></span> <span class='iconify m-3' data-icon='logos:nodejs-icon'></span> </span> <span class='iconify m-3' data-icon='logos:heroku-icon'></span> <span class='iconify m-3' data-icon='logos:npm-2'></span> <span class='iconify m-3' data-icon='logos:github-icon'></span>"
+		"<span class='iconify m-3' data-icon='logos:html-5'></span> <span class='iconify m-3' data-icon='logos:css-3'></span> <span class='iconify m-3' data-icon='logos:react'></span> <span class='iconify m-3' data-icon='logos:javascript'></span> <span class='iconify m-3' data-icon='logos:netlify'></span> <span class='iconify m-3' data-icon='logos:github-icon'></span>"
 	,
-	codeLink: 'https://github.com/PaulGarrod/ppIslands'
+	codeLink: 'https://github.com/PaulGarrod/singerFightCardGame'
 }
 ];
 
